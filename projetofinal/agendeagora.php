@@ -6,6 +6,6 @@
     <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body action="#" method="post">
-    <h1>EM BREVE!</h1>
+    <h1>EM BREVE</h1>
 </body>
 </html>
