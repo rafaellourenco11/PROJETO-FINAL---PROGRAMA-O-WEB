@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $senha_hash = password_hash($senha, PASSWORD_DEFAULT);
 
-    $query = "INSERT INTO clientes (nome, email, senha) VALUES (?, ?, ?)";
+    $query = "INSERT INTO usuarios (nome, email, senha) VALUES (?, ?, ?)";
 
   
     if ($stmt = $conn->prepare($query)) {
