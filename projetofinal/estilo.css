@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #24282b;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #24282b;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem; 
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #f7e1bc; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-title {
+    font-size: 24px; 
+    background-color: #333;
+    color: #000000; 
+    margin-right: 20px; 
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    display: inline-block;
+    background-color: #b6000f; 
+    color: white; 
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.menu a:hover {
+    background-color: #24282b; ; 
+    transform: scale(1.05); 
+
+}
+
+.btn {
+    display: inline-block;
+    background-color: #b6000f; 
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #24282b; 
+}
+
+
+
+form {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 50px;
+    max-width: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+form h1 {
+    text-align: center;
+    font-size: 1.5rem; 
+    color: #0080ff;
+    margin-bottom: 20px;
+}
+
+
+form label {
+    font-size: 0.9rem; 
+    color: #34495e;
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #24282b;
+    border-radius: 5px;
+    font-size: 0.9rem; 
+    background-color: #f7f7f7;
+}
+
+
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+
+form button[type="submit"] {
+    background-color:#b6000f; 
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px; 
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: #24282b;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #b6000f;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #b6000f;
+}
+
+
+footer {
+    background-color:  #f7e1bc; 
+    color: #000000;             
+    padding: 20px;              
+    text-align: center;        
+    font-size: 0.9rem;          
+    position: relative;       
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+footer a {
+    text-decoration: none;    
+    color: #000000;
+    margin: 0 10px;            
+    font-size: 1rem;           
+}
+
+footer a:hover {
+    color: #b6000f;          
+}
+
+.fundo{
+    text-align: center;
+    background-color: #a7d0d6;
+    color: #000000;
+}
+
+p{
+    text-align: center;
+}
